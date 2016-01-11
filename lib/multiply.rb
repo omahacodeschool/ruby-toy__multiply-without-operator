@@ -1,11 +1,11 @@
-puts "Please enter a whole number"
-    first_number=gets.chomp
-    puts "Now enter another whole number"
-    second_number=gets.chomp
+def multiplier_method (first_number, second_number)
     number_2=second_number.to_i
     number_1=first_number.to_i
     product = 0
-    number_2.times do
+    number_2.times do 
     product = product.+(number_1)
 end
-puts product
+    return product
+end
+
+puts multiplier_method "10","15"
