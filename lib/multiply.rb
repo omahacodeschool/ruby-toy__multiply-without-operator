@@ -7,16 +7,14 @@
 #FIRST ONE IS ADDED TO ITSELF. LIKE 3,5 IS
 #WORKED AS 3+3+3+3+3.
 
-#puts 'Please enter the first number to be multiplied and push the enter key.'
-#first=gets.chomp
-#x=first.to_i
-#puts "Please enter the second number to be multiplied and push the enter key."
-#second=gets.chomp
-#y=second.to_i
-x=5
-y=3
+puts 'Please enter the first number to be multiplied and push the enter key.'
+first=gets.chomp
+x=first.to_i
+puts "Please enter the second number to be multiplied and push the enter key."
+second=gets.chomp
+y=second.to_i
 z=0
-x.times do (y)
-z+=y+y
+(1..x).each do (y)
+z+=y
 end
 puts [z]
