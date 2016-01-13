@@ -1,4 +1,5 @@
 def multiply(num1, num2)
-x = 10
-result = x + x + x
+    for i in 0..num2 
+        num1 += num1 
+    end
 end
