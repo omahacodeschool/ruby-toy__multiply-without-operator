@@ -1,3 +1,8 @@
 def multiply(num1, num2)
-   [10, 3].join.reverse[0.. 1].to_i
+new_a = []
+(num1).times do |i|  
+    new_a<< (num2)
+end
+return new_a.inject{|sum,x| sum + x }
+
 end
