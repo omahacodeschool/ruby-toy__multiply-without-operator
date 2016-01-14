@@ -1,20 +1,14 @@
-#def multiply(num1, num2)
-#MULTIPLY WITHOUT USING THE TIMES OPERATOR
-#MULTIPLICATION IS JUST ADDITION REPEATED. I NEED
-#TO MAKE A PROGRAM WHERE YOU CAN INPUT TWO WHOLE
-#NUMBERS SO THAT THE FIRST ONE IS ADDED TO ITSELF
-#AND THE SECOND NUMBER IS THE NUMBER OF TIMES THE
-#FIRST ONE IS ADDED TO ITSELF. LIKE 3,5 IS
-#WORKED AS 3+3+3+3+3.
-
-puts 'Please enter the first number to be multiplied and push the enter key.'
-first=gets.chomp
-x=first.to_i
-puts "Please enter the second number to be multiplied and push the enter key."
-second=gets.chomp
-y=second.to_i
-z=0
-(1..x).each do (y)
-z+=y
+def multiply(num1, num2)
+  
+ # The first number X is the number of times the second number will
+ # be added to itself. Y is the number that will be added to
+ # itself X number of times to simulate multiplication. z holds the
+ # accumulated value of y every time it goes through the algorithm.
+   x=num1.to_i
+   y=num2.to_i
+   z=0
+(1..x).each do z+=y
+   #z=y+z
+  end
+  return z
 end
-puts [z]
