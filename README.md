@@ -1,3 +1,5 @@
+[![Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+
 # Toy Problem - Ruby
 
 ## Multiplication Without `*` Operator
