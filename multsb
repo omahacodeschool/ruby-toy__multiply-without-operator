@@ -1,0 +1,12 @@
+num1 = 4
+num2 = 8
+product = 0
+
+num2.times do 
+  product += num1
+  end
+puts product
+
+
+
+
