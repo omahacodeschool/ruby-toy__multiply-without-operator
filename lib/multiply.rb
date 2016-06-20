@@ -12,6 +12,7 @@ def multiply(num1, num2)
 	#Variable containing the product of num1 and num2
 	product = new_arr.inject(:+)
 	
-	return "The product of multiplying #{num1} and #{num2} is #{product}."
+	return product
+	#return "The product of multiplying #{num1} and #{num2} is #{product}."
     
 end
